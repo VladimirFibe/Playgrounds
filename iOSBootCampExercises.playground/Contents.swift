@@ -46,11 +46,11 @@ func exercise() {
   //####################################
   //Write your code below this line 👇
   
-  let c = a
-  a = b
-  b = c
+//  let c = a
+//  a = b
+//  b = c
   
-  
+  (a, b) = (b, a)
   //Write your code above this line 👆
   //####################################
   
