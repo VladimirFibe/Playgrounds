@@ -50,7 +50,11 @@ func exercise() {
 //  a = b
 //  b = c
   
-  (a, b) = (b, a)
+//  (a, b) = (b, a)
+  
+  a = a + b
+  b = a - b
+  a = a - b
   //Write your code above this line 👆
   //####################################
   
