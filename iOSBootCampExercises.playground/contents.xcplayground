@@ -4,5 +4,6 @@
         <page name='42. Variables'/>
         <page name='43. Arrays'/>
         <page name='44. Random'/>
+        <page name='44. Constant'/>
     </pages>
 </playground>

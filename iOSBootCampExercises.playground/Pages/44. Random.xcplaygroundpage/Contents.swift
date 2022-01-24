@@ -26,6 +26,11 @@ func exercise() {
   
 }
 //Don't change this code.
-exercise()
+// exercise()
 
 //: [Next](@next)
+
+let i = 2
+var f: (Double) -> Double
+f = cos
+let x = f(81)
