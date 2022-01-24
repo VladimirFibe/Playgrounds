@@ -12,7 +12,7 @@ func exercise() {
   //Write your code below this line 👇
   var result = ""
   let length = 6
-  for i in 0..<length {
+  for _ in 0..<length {
     result.append(alphabet[Int.random(in: 0..<alphabet.count)])
   }
   let password = result //Replace this comment with your code.
@@ -26,11 +26,6 @@ func exercise() {
   
 }
 //Don't change this code.
-// exercise()
+ exercise()
 
 //: [Next](@next)
-
-let i = 2
-var f: (Double) -> Double
-f = cos
-let x = f(81)
