@@ -39,22 +39,22 @@ import SwiftUI
 
 func exercise() {
   
-  var a = 5
-  var b = 8
+  var a = "Hello"
+  var b = "Jack"
   // 🚨 Don't change the code above 👆
   
   //####################################
   //Write your code below this line 👇
   
-//  let c = a
-//  a = b
-//  b = c
+  let c = a
+  a = b
+  b = c
   
 //  (a, b) = (b, a)
   
-  a = a + b
-  b = a - b
-  a = a - b
+//  a = a + b
+//  b = a - b
+//  a = a - b
   //Write your code above this line 👆
   //####################################
   
