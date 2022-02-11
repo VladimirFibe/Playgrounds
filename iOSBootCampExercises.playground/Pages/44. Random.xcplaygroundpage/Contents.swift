@@ -25,6 +25,30 @@ func exercise() {
   
   
 }
+func strings(sourse: String, number: Int) -> String {
+  var result = ""
+  for _ in 0..<number {
+    result += sourse
+  }
+  return result
+}
+print(strings(sourse: "Swift", number: 3))
+var first = 5
+var second = 0
+var third = 7
+
+let param = ["vasya", "petya"]
+
+var model = ["vasyaaaa", "sonya", "tanya"]
+
+//var filterModel: [String] {
+//  var result = model
+//  param.forEach {
+//  result = result.filter { name in
+//    name.contains(where: $0)
+//  }
+//    
+//}
 //Don't change this code.
  exercise()
 
